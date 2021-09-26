@@ -1,5 +1,7 @@
 # Set Values as per MSK instance
+
 export BROKERS=<set here>
+  
 export CLUSTERARN=<>
 
 aws kafka describe-cluster --region eu-west-1 --cluster-arn CLUSTERARN
